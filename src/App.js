@@ -5,21 +5,28 @@ import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
 function App() {
 
-  const [items, setItems] = React.useState([]);
-
-  React.useEffect(()=>{
-     const fetchItems = () => {
-      fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(response => response.json())
-      .then(json => {
-        setItems(json.map( i => ({
-          id: i.id,
-          name: i.title,
-        })));
-      });
-    } 
-    fetchItems();
-  }, [])
+  const items = [
+    {
+      id: 0,
+      name: "Cobol",
+    },
+    {
+      id: 1,
+      name: "JavaScript"
+    },
+    {
+      id: 2,
+      name: "Basic"
+    },
+    {
+      id: 3,
+      name: "PHP"
+    },
+    {
+      id: 4,
+      name: "Java"
+    },
+  ];
 
   const handleOnSearch = (string, cached) => {
     console.log(string, cached);
@@ -38,6 +45,7 @@ function App() {
       <header className="App-header">
         <div style={{width: 400, margin: 20}}>
           <img src={logo} alt="logo" style={{marginBottom: 20}} />
+          <div style={{marginBottom: 20}}>Try to type "JavaScript".</div>
           <ReactSearchAutocomplete
             items={items}
             onSearch={handleOnSearch}
@@ -50,6 +58,7 @@ function App() {
 
         <div style={{width: 400, margin: 20}}>
           <h2 style={{marginBottom: 20, fontSize: 30}}>My custom searchbox!</h2>
+          <div style={{marginBottom: 20}}>Try to type "JavaScript".</div>
           <ReactSearchAutocomplete
             items={items}
             onSearch={handleOnSearch}
