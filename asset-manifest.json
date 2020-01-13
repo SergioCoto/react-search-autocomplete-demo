@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-search-autocomplete-demo/static/css/main.842a9344.chunk.css",
-    "main.js": "/react-search-autocomplete-demo/static/js/main.106a01d6.chunk.js",
-    "main.js.map": "/react-search-autocomplete-demo/static/js/main.106a01d6.chunk.js.map",
+    "main.js": "/react-search-autocomplete-demo/static/js/main.a90cb8cd.chunk.js",
+    "main.js.map": "/react-search-autocomplete-demo/static/js/main.a90cb8cd.chunk.js.map",
     "runtime-main.js": "/react-search-autocomplete-demo/static/js/runtime-main.5f552efd.js",
     "runtime-main.js.map": "/react-search-autocomplete-demo/static/js/runtime-main.5f552efd.js.map",
     "static/js/2.a9b073e9.chunk.js": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js",
     "static/js/2.a9b073e9.chunk.js.map": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js.map",
     "index.html": "/react-search-autocomplete-demo/index.html",
-    "precache-manifest.72375b5bd5e3a5119156603e65e1d841.js": "/react-search-autocomplete-demo/precache-manifest.72375b5bd5e3a5119156603e65e1d841.js",
+    "precache-manifest.7c1ee53f27b979f9163758811d115991.js": "/react-search-autocomplete-demo/precache-manifest.7c1ee53f27b979f9163758811d115991.js",
     "service-worker.js": "/react-search-autocomplete-demo/service-worker.js",
     "static/css/main.842a9344.chunk.css.map": "/react-search-autocomplete-demo/static/css/main.842a9344.chunk.css.map",
     "static/js/2.a9b073e9.chunk.js.LICENSE": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5f552efd.js",
     "static/js/2.a9b073e9.chunk.js",
     "static/css/main.842a9344.chunk.css",
-    "static/js/main.106a01d6.chunk.js"
+    "static/js/main.a90cb8cd.chunk.js"
   ]
 }
