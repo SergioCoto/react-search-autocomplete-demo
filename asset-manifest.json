@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-search-autocomplete-demo/static/css/main.842a9344.chunk.css",
-    "main.js": "/react-search-autocomplete-demo/static/js/main.a90cb8cd.chunk.js",
-    "main.js.map": "/react-search-autocomplete-demo/static/js/main.a90cb8cd.chunk.js.map",
+    "main.css": "/react-search-autocomplete-demo/static/css/main.016f993d.chunk.css",
+    "main.js": "/react-search-autocomplete-demo/static/js/main.40e0e1fe.chunk.js",
+    "main.js.map": "/react-search-autocomplete-demo/static/js/main.40e0e1fe.chunk.js.map",
     "runtime-main.js": "/react-search-autocomplete-demo/static/js/runtime-main.5f552efd.js",
     "runtime-main.js.map": "/react-search-autocomplete-demo/static/js/runtime-main.5f552efd.js.map",
-    "static/js/2.a9b073e9.chunk.js": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js",
-    "static/js/2.a9b073e9.chunk.js.map": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js.map",
+    "static/js/2.1f66fb82.chunk.js": "/react-search-autocomplete-demo/static/js/2.1f66fb82.chunk.js",
+    "static/js/2.1f66fb82.chunk.js.map": "/react-search-autocomplete-demo/static/js/2.1f66fb82.chunk.js.map",
     "index.html": "/react-search-autocomplete-demo/index.html",
-    "precache-manifest.7c1ee53f27b979f9163758811d115991.js": "/react-search-autocomplete-demo/precache-manifest.7c1ee53f27b979f9163758811d115991.js",
+    "precache-manifest.ba134324722dcb4fcac33b3ecedb03b0.js": "/react-search-autocomplete-demo/precache-manifest.ba134324722dcb4fcac33b3ecedb03b0.js",
     "service-worker.js": "/react-search-autocomplete-demo/service-worker.js",
-    "static/css/main.842a9344.chunk.css.map": "/react-search-autocomplete-demo/static/css/main.842a9344.chunk.css.map",
-    "static/js/2.a9b073e9.chunk.js.LICENSE": "/react-search-autocomplete-demo/static/js/2.a9b073e9.chunk.js.LICENSE",
+    "static/css/main.016f993d.chunk.css.map": "/react-search-autocomplete-demo/static/css/main.016f993d.chunk.css.map",
+    "static/js/2.1f66fb82.chunk.js.LICENSE": "/react-search-autocomplete-demo/static/js/2.1f66fb82.chunk.js.LICENSE",
     "static/media/sickdoodle.png": "/react-search-autocomplete-demo/static/media/sickdoodle.d8981db5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5f552efd.js",
-    "static/js/2.a9b073e9.chunk.js",
-    "static/css/main.842a9344.chunk.css",
-    "static/js/main.a90cb8cd.chunk.js"
+    "static/js/2.1f66fb82.chunk.js",
+    "static/css/main.016f993d.chunk.css",
+    "static/js/main.40e0e1fe.chunk.js"
   ]
 }
