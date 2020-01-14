@@ -43,8 +43,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{width: 400, margin: 20}}>
-          <img src={logo} alt="logo" style={{marginBottom: 20}} />
+        <div style={{width: 200, margin: 20}}>
+          <img src={logo} alt="logo" style={{width: "100%", marginBottom: 20}} />
           <div style={{marginBottom: 20}}>Try to type "JavaScript".</div>
           <ReactSearchAutocomplete
             items={items}
@@ -55,8 +55,7 @@ function App() {
           />
           <div style={{marginTop: 20}}>This text will be covered!</div>
         </div>
-
-        <div style={{width: 400, margin: 20}}>
+        <div style={{width: 200, margin: 20}}>
           <h2 style={{marginBottom: 20, fontSize: 30}}>My custom searchbox!</h2>
           <div style={{marginBottom: 20}}>Try to type "JavaScript".</div>
           <ReactSearchAutocomplete
