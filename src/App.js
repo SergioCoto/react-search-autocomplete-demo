@@ -55,32 +55,6 @@ function App() {
           />
           <div style={{marginTop: 20}}>This text will be covered!</div>
         </div>
-        <div style={{width: 200, margin: 20}}>
-          <h2 style={{marginBottom: 20, fontSize: 30}}>My custom searchbox!</h2>
-          <div style={{marginBottom: 20}}>Try to type "JavaScript".</div>
-          <ReactSearchAutocomplete
-            items={items}
-            onSearch={handleOnSearch}
-            onSelect={handleOnSelect}
-            onFocus={handleOnFocus}
-            showIcon={false}
-            styling={{
-              height: "34px",
-              border: "1px solid darkgreen",
-              borderRadius: "4px",
-              backgroundColor: "white",
-              boxShadow: "none",
-              hoverBackgroundColor: "lightgreen",
-              color: "darkgreen",
-              fontSize: "16px",
-              fontFamily: "Arial",
-              iconColor: "green",
-              lineColor: "lightgreen",
-              placeholderColor: "darkgreen",
-            }}
-          />
-          <div style={{marginTop: 20}}>This text will be covered!</div>
-        </div>
       </header>
     </div>
   );
