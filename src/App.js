@@ -27,6 +27,29 @@ function App() {
     },
   ];
 
+  const movieItems = [
+    {
+      id: 0,
+      title: "Titanic",
+      description: "A movie about love",
+    },
+    {
+      id: 1,
+      title: "Dead Poets Society",
+      description: "A movie about poetry and the meaning of life",
+    },
+    {
+      id: 2,
+      title: "Terminator 2",
+      description: "A robot from the future is sent back in time",
+    },
+    {
+      id: 3,
+      title: "Alien 2",
+      description: "Ripley is back for a new adventure",
+    },
+  ];
+
   const handleOnSearch = (string, cached) => {
     console.log(string, cached);
   };
@@ -62,9 +85,11 @@ function App() {
           <h2 style={{ marginBottom: 20, fontSize: 30 }}>
             My custom searchbox!
           </h2>
-          <div style={{ marginBottom: 20 }}>Try to type "JavaScript".</div>
+          <div style={{ marginBottom: 20 }}>Try to type "Titanic".</div>
           <ReactSearchAutocomplete
-            items={items}
+            items={movieItems}
+            fuseOptions={{ keys: ["title", "description"] }}
+            resultStringKeyName="title"
             onSearch={handleOnSearch}
             onSelect={handleOnSelect}
             onFocus={handleOnFocus}
