@@ -27,6 +27,13 @@ function App() {
     },
   ];
 
+  const manyItems = [...new Array(10000)].map((_, i) => ({
+    id: i,
+    name: `something${i}`,
+    description:
+      "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array. Calls a defined callback function on each element of an array, and returns an array that contains the results.",
+  }));
+
   const movieItems = [
     {
       id: 0,
@@ -50,8 +57,8 @@ function App() {
     },
   ];
 
-  const handleOnSearch = (string, cached) => {
-    console.log(string, cached);
+  const handleOnSearch = (string, results) => {
+    console.log(string, results);
   };
 
   const handleOnSelect = (item) => {
@@ -71,13 +78,27 @@ function App() {
             alt="logo"
             style={{ width: "100%", marginBottom: 20 }}
           />
-          <div style={{ marginBottom: 20 }}>Try to type "JavaScript".</div>
+          <div style={{ marginBottom: 20 }}>Try to type "JavaScript"</div>
           <ReactSearchAutocomplete
             items={items}
             onSearch={handleOnSearch}
             onSelect={handleOnSelect}
             onFocus={handleOnFocus}
+            styling={{ zIndex: 2 }} // To display it on top of the search box below
             autoFocus
+          />
+          <div style={{ marginTop: 20 }}>This text will be covered!</div>
+        </div>
+        <div style={{ width: 200, margin: 20 }}>
+          <h2 style={{ marginBottom: 20, fontSize: 30 }}>10000 items!</h2>
+          <div style={{ marginBottom: 20 }}>Try to type a number</div>
+          <ReactSearchAutocomplete
+            items={manyItems}
+            onSearch={handleOnSearch}
+            onSelect={handleOnSelect}
+            onFocus={handleOnFocus}
+            fuseOptions={{ keys: ["name", "description"] }} // Search in the description text as well
+            styling={{ zIndex: 1 }} // To display it on top of the search box below
           />
           <div style={{ marginTop: 20 }}>This text will be covered!</div>
         </div>
@@ -85,11 +106,11 @@ function App() {
           <h2 style={{ marginBottom: 20, fontSize: 30 }}>
             My custom searchbox!
           </h2>
-          <div style={{ marginBottom: 20 }}>Try to type "Titanic".</div>
+          <div style={{ marginBottom: 20 }}>Try to type "Titanic"</div>
           <ReactSearchAutocomplete
             items={movieItems}
-            fuseOptions={{ keys: ["title", "description"] }}
-            resultStringKeyName="title"
+            fuseOptions={{ keys: ["title", "description"] }} // Search on both fields
+            resultStringKeyName="title" // String to display in the results
             onSearch={handleOnSearch}
             onSelect={handleOnSelect}
             onFocus={handleOnFocus}
