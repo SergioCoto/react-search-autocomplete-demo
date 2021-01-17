@@ -94,6 +94,7 @@ function App() {
           <div style={{ marginBottom: 20 }}>Try to type a number</div>
           <ReactSearchAutocomplete
             items={manyItems}
+            maxResults={15}
             onSearch={handleOnSearch}
             onSelect={handleOnSelect}
             onFocus={handleOnFocus}
