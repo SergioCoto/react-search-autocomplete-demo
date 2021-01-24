@@ -31,7 +31,7 @@ function App() {
     id: i,
     name: `something${i}`,
     description:
-      "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array. Calls a defined callback function on each element of an array, and returns an array that contains the results.",
+      "Some description text, where the search will be performed too.",
   }));
 
   const movieItems = [
@@ -124,8 +124,8 @@ function App() {
               boxShadow: "none",
               hoverBackgroundColor: "lightgreen",
               color: "darkgreen",
-              fontSize: "16px",
-              fontFamily: "Arial",
+              fontSize: "12px",
+              fontFamily: "Courier",
               iconColor: "green",
               lineColor: "lightgreen",
               placeholderColor: "darkgreen",
