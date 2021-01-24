@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-search-autocomplete-demo/static/css/main.661a149e.chunk.css",
-    "main.js": "/react-search-autocomplete-demo/static/js/main.f70c07aa.chunk.js",
-    "main.js.map": "/react-search-autocomplete-demo/static/js/main.f70c07aa.chunk.js.map",
+    "main.js": "/react-search-autocomplete-demo/static/js/main.04f83e88.chunk.js",
+    "main.js.map": "/react-search-autocomplete-demo/static/js/main.04f83e88.chunk.js.map",
     "runtime-main.js": "/react-search-autocomplete-demo/static/js/runtime-main.724f5c98.js",
     "runtime-main.js.map": "/react-search-autocomplete-demo/static/js/runtime-main.724f5c98.js.map",
-    "static/js/2.e8c4a3d5.chunk.js": "/react-search-autocomplete-demo/static/js/2.e8c4a3d5.chunk.js",
-    "static/js/2.e8c4a3d5.chunk.js.map": "/react-search-autocomplete-demo/static/js/2.e8c4a3d5.chunk.js.map",
+    "static/js/2.50615bff.chunk.js": "/react-search-autocomplete-demo/static/js/2.50615bff.chunk.js",
+    "static/js/2.50615bff.chunk.js.map": "/react-search-autocomplete-demo/static/js/2.50615bff.chunk.js.map",
     "index.html": "/react-search-autocomplete-demo/index.html",
     "static/css/main.661a149e.chunk.css.map": "/react-search-autocomplete-demo/static/css/main.661a149e.chunk.css.map",
-    "static/js/2.e8c4a3d5.chunk.js.LICENSE.txt": "/react-search-autocomplete-demo/static/js/2.e8c4a3d5.chunk.js.LICENSE.txt",
+    "static/js/2.50615bff.chunk.js.LICENSE.txt": "/react-search-autocomplete-demo/static/js/2.50615bff.chunk.js.LICENSE.txt",
     "static/media/sickdoodle.d7740801.png": "/react-search-autocomplete-demo/static/media/sickdoodle.d7740801.png"
   },
   "entrypoints": [
     "static/js/runtime-main.724f5c98.js",
-    "static/js/2.e8c4a3d5.chunk.js",
+    "static/js/2.50615bff.chunk.js",
     "static/css/main.661a149e.chunk.css",
-    "static/js/main.f70c07aa.chunk.js"
+    "static/js/main.04f83e88.chunk.js"
   ]
 }
