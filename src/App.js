@@ -90,7 +90,7 @@ function App() {
           <div style={{ marginTop: 20 }}>This text will be covered!</div>
         </div>
         <div style={{ width: 200, margin: 20 }}>
-          <h2 style={{ marginBottom: 20, fontSize: 30 }}>10000 items!</h2>
+          <h2>10000 items!</h2>
           <div style={{ marginBottom: 20 }}>Try to type a number</div>
           <ReactSearchAutocomplete
             items={manyItems}
@@ -104,9 +104,7 @@ function App() {
           <div style={{ marginTop: 20 }}>This text will be covered!</div>
         </div>
         <div style={{ width: 200, margin: 20 }}>
-          <h2 style={{ marginBottom: 20, fontSize: 30 }}>
-            My custom searchbox!
-          </h2>
+          <h2>My custom searchbox!</h2>
           <div style={{ marginBottom: 20 }}>Try to type "Titanic"</div>
           <ReactSearchAutocomplete
             items={movieItems}
